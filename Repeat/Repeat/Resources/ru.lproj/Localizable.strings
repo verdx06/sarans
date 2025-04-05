@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  Repeat
+
+  Created by Виталий Багаутдинов on 02.04.2025.
+  
+*/
+
+"no_internet" = "Нет\nподключения к интернету";
+"check_again" = "Проверьте еще раз";
+"next" = "Далее";
+"more" = "Еще";
+"choose_a_language" = "Выбрать язык";
+"skip_onboarding" = "Пропустить адаптацию";
+"choose" = "Выбрать";
+"continue" = "Продолжить";
+"Create_an_Account" = "Создать аккаунт";
+"Password" = "Пароль";

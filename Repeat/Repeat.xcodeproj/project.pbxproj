@@ -1,0 +1,1000 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2130EA6D2D9D5FBF0067F2C5 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2130EA6C2D9D5FBF0067F2C5 /* SignUpView.swift */; };
+		2130EA702D9D5FC60067F2C5 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2130EA6E2D9D5FC60067F2C5 /* AuthViewModel.swift */; };
+		2130EA732D9D63420067F2C5 /* MainTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2130EA722D9D63420067F2C5 /* MainTextField.swift */; };
+		2130EA762D9D657C0067F2C5 /* PasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2130EA752D9D657C0067F2C5 /* PasswordView.swift */; };
+		2130EA782D9D6B9E0067F2C5 /* PDFKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2130EA772D9D6B9E0067F2C5 /* PDFKitView.swift */; };
+		2130EA7D2D9D6FDF0067F2C5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2130EA7C2D9D6FDF0067F2C5 /* LoginView.swift */; };
+		2130EA802D9D7C860067F2C5 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 2130EA7F2D9D7C860067F2C5 /* Alamofire */; };
+		2130EA822D9D7CB70067F2C5 /* APIManagerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2130EA812D9D7CB70067F2C5 /* APIManagerModel.swift */; };
+		2130EA862D9D96740067F2C5 /* WordPracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2130EA852D9D96740067F2C5 /* WordPracticeView.swift */; };
+		2130EA882D9D99BA0067F2C5 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2130EA872D9D99BA0067F2C5 /* Word.swift */; };
+		2130EA8D2D9DA9980067F2C5 /* WordPracticeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2130EA8C2D9DA9980067F2C5 /* WordPracticeViewModel.swift */; };
+		2130EA8F2D9DA9D90067F2C5 /* WordPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2130EA8E2D9DA9D90067F2C5 /* WordPair.swift */; };
+		219FC0912D9F01B2003FC19E /* EmailValidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219FC0902D9F01B2003FC19E /* EmailValidate.swift */; };
+		21C4D4EC2D9AD96000AD699A /* Fredoka_SemiCondensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21C4D4EB2D9AD96000AD699A /* Fredoka_SemiCondensed-Medium.ttf */; };
+		21C4D4F42D9ADCDF00AD699A /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C4D4F12D9ADCDF00AD699A /* SplashScreen.swift */; };
+		21C4D5372D9C0D2E00AD699A /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C4D5362D9C0D2E00AD699A /* NetworkModel.swift */; };
+		21C4D53C2D9C160E00AD699A /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C4D53B2D9C160E00AD699A /* Modifiers.swift */; };
+		21C4D53F2D9C4D1600AD699A /* NetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C4D53E2D9C4D1600AD699A /* NetworkView.swift */; };
+		21C4D5452D9D32B800AD699A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21C4D5432D9D32B800AD699A /* Localizable.strings */; };
+		21C4D54A2D9D43A900AD699A /* LanguagesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C4D5482D9D43A900AD699A /* LanguagesViewModel.swift */; };
+		21C4D54C2D9D46C100AD699A /* LanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C4D54B2D9D46C100AD699A /* LanguageView.swift */; };
+		21F0A14E2D9AB69E004FF5F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21F0A1482D9AB69E004FF5F9 /* Preview Assets.xcassets */; };
+		21F0A1502D9AB69E004FF5F9 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F0A14B2D9AB69E004FF5F9 /* OnboardingView.swift */; };
+		21F0A1512D9AB69E004FF5F9 /* RepeatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F0A14C2D9AB69E004FF5F9 /* RepeatApp.swift */; };
+		21F0A15E2D9AB709004FF5F9 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F0A15D2D9AB709004FF5F9 /* OnboardingViewModel.swift */; };
+		21F0A1612D9AB769004FF5F9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F0A1602D9AB769004FF5F9 /* Constants.swift */; };
+		21F0A1632D9AB76B004FF5F9 /* UserKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F0A1622D9AB76B004FF5F9 /* UserKey.swift */; };
+		21F0A1652D9AB7A1004FF5F9 /* QueueModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F0A1642D9AB7A1004FF5F9 /* QueueModel.swift */; };
+		21F0A1672D9ABA45004FF5F9 /* SelectLanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F0A1662D9ABA45004FF5F9 /* SelectLanguageView.swift */; };
+		21F0A1772D9ABAED004FF5F9 /* RepeatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F0A1752D9ABAED004FF5F9 /* RepeatTests.swift */; };
+		21F0A17B2D9AC326004FF5F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21F0A1792D9AC326004FF5F9 /* Assets.xcassets */; };
+		21F0A1CA2D9AC431004FF5F9 /* Fredoka_SemiExpanded-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21F0A1C12D9AC431004FF5F9 /* Fredoka_SemiExpanded-Light.ttf */; };
+		21F0A1CB2D9AC431004FF5F9 /* Fredoka_SemiExpanded-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21F0A1C22D9AC431004FF5F9 /* Fredoka_SemiExpanded-Medium.ttf */; };
+		21F0A1CC2D9AC431004FF5F9 /* Fredoka_Expanded-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21F0A1B62D9AC431004FF5F9 /* Fredoka_Expanded-Bold.ttf */; };
+		21F0A1CD2D9AC431004FF5F9 /* Fredoka_SemiCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21F0A1BC2D9AC431004FF5F9 /* Fredoka_SemiCondensed-Light.ttf */; };
+		21F0A1CE2D9AC431004FF5F9 /* Fredoka_SemiCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21F0A1BE2D9AC431004FF5F9 /* Fredoka_SemiCondensed-Regular.ttf */; };
+		21F0A1CF2D9AC431004FF5F9 /* Fredoka_Expanded-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21F0A1B82D9AC431004FF5F9 /* Fredoka_Expanded-Medium.ttf */; };
+		21F0A1D02D9AC431004FF5F9 /* Fredoka_SemiExpanded-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21F0A1C02D9AC431004FF5F9 /* Fredoka_SemiExpanded-Bold.ttf */; };
+		21F0A1D12D9AC431004FF5F9 /* Fredoka_SemiExpanded-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21F0A1C32D9AC431004FF5F9 /* Fredoka_SemiExpanded-Regular.ttf */; };
+		21F0A1D22D9AC431004FF5F9 /* Fredoka_SemiCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21F0A1BB2D9AC431004FF5F9 /* Fredoka_SemiCondensed-Bold.ttf */; };
+		21F0A1D32D9AC431004FF5F9 /* Fredoka-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21F0A1C92D9AC431004FF5F9 /* Fredoka-SemiBold.ttf */; };
+		21F0A1D42D9AC431004FF5F9 /* Fredoka_Condensed-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21F0A1B52D9AC431004FF5F9 /* Fredoka_Condensed-SemiBold.ttf */; };
+		21F0A1D52D9AC431004FF5F9 /* Fredoka_Expanded-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21F0A1B92D9AC431004FF5F9 /* Fredoka_Expanded-Regular.ttf */; };
+		21F0A1D62D9AC431004FF5F9 /* Fredoka-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21F0A1C62D9AC431004FF5F9 /* Fredoka-Light.ttf */; };
+		21F0A1D72D9AC431004FF5F9 /* Fredoka_Condensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21F0A1B12D9AC431004FF5F9 /* Fredoka_Condensed-Bold.ttf */; };
+		21F0A1D82D9AC431004FF5F9 /* Fredoka_SemiCondensed-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21F0A1BF2D9AC431004FF5F9 /* Fredoka_SemiCondensed-SemiBold.ttf */; };
+		21F0A1D92D9AC431004FF5F9 /* Fredoka_Condensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21F0A1B32D9AC431004FF5F9 /* Fredoka_Condensed-Medium.ttf */; };
+		21F0A1DA2D9AC431004FF5F9 /* Fredoka_Condensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21F0A1B42D9AC431004FF5F9 /* Fredoka_Condensed-Regular.ttf */; };
+		21F0A1DB2D9AC431004FF5F9 /* Fredoka-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21F0A1C52D9AC431004FF5F9 /* Fredoka-Bold.ttf */; };
+		21F0A1DD2D9AC431004FF5F9 /* Fredoka_Expanded-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21F0A1BA2D9AC431004FF5F9 /* Fredoka_Expanded-SemiBold.ttf */; };
+		21F0A1DE2D9AC431004FF5F9 /* Fredoka-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21F0A1C82D9AC431004FF5F9 /* Fredoka-Regular.ttf */; };
+		21F0A1DF2D9AC431004FF5F9 /* Fredoka_Expanded-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21F0A1B72D9AC431004FF5F9 /* Fredoka_Expanded-Light.ttf */; };
+		21F0A1E02D9AC431004FF5F9 /* Fredoka_Condensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21F0A1B22D9AC431004FF5F9 /* Fredoka_Condensed-Light.ttf */; };
+		21F0A1E12D9AC431004FF5F9 /* Fredoka_SemiExpanded-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21F0A1C42D9AC431004FF5F9 /* Fredoka_SemiExpanded-SemiBold.ttf */; };
+		21F0A1E22D9AC431004FF5F9 /* Fredoka-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21F0A1C72D9AC431004FF5F9 /* Fredoka-Medium.ttf */; };
+		21F0A1E52D9AC483004FF5F9 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F0A1E42D9AC483004FF5F9 /* View.swift */; };
+		21F0A1E72D9AC5EF004FF5F9 /* Steps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F0A1E62D9AC5EF004FF5F9 /* Steps.swift */; };
+		21F0A1EB2D9AC7C9004FF5F9 /* MainButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F0A1EA2D9AC7C9004FF5F9 /* MainButtonView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21F0A1702D9ABAE9004FF5F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21F0A12F2D9AB698004FF5F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21F0A1362D9AB698004FF5F9;
+			remoteInfo = Repeat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2130EA6C2D9D5FBF0067F2C5 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		2130EA6E2D9D5FC60067F2C5 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		2130EA722D9D63420067F2C5 /* MainTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTextField.swift; sourceTree = "<group>"; };
+		2130EA752D9D657C0067F2C5 /* PasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordView.swift; sourceTree = "<group>"; };
+		2130EA772D9D6B9E0067F2C5 /* PDFKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFKitView.swift; sourceTree = "<group>"; };
+		2130EA7C2D9D6FDF0067F2C5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		2130EA812D9D7CB70067F2C5 /* APIManagerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManagerModel.swift; sourceTree = "<group>"; };
+		2130EA852D9D96740067F2C5 /* WordPracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordPracticeView.swift; sourceTree = "<group>"; };
+		2130EA872D9D99BA0067F2C5 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		2130EA8C2D9DA9980067F2C5 /* WordPracticeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordPracticeViewModel.swift; sourceTree = "<group>"; };
+		2130EA8E2D9DA9D90067F2C5 /* WordPair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordPair.swift; sourceTree = "<group>"; };
+		219FC0902D9F01B2003FC19E /* EmailValidate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidate.swift; sourceTree = "<group>"; };
+		21C4D4EA2D9AD96000AD699A /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = "en.lproj/Fredoka_SemiCondensed-Medium.ttf"; sourceTree = "<group>"; };
+		21C4D4F12D9ADCDF00AD699A /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		21C4D5362D9C0D2E00AD699A /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
+		21C4D53B2D9C160E00AD699A /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		21C4D53E2D9C4D1600AD699A /* NetworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkView.swift; sourceTree = "<group>"; };
+		21C4D5442D9D32B800AD699A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		21C4D5462D9D334300AD699A /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		21C4D5472D9D334300AD699A /* ru */ = {isa = PBXFileReference; lastKnownFileType = file; name = ru; path = "ru.lproj/Fredoka_SemiCondensed-Medium.ttf"; sourceTree = "<group>"; };
+		21C4D5482D9D43A900AD699A /* LanguagesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagesViewModel.swift; sourceTree = "<group>"; };
+		21C4D54B2D9D46C100AD699A /* LanguageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageView.swift; sourceTree = "<group>"; };
+		21F0A1372D9AB698004FF5F9 /* Repeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Repeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21F0A1482D9AB69E004FF5F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		21F0A14B2D9AB69E004FF5F9 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		21F0A14C2D9AB69E004FF5F9 /* RepeatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatApp.swift; sourceTree = "<group>"; };
+		21F0A15D2D9AB709004FF5F9 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		21F0A1602D9AB769004FF5F9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		21F0A1622D9AB76B004FF5F9 /* UserKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserKey.swift; sourceTree = "<group>"; };
+		21F0A1642D9AB7A1004FF5F9 /* QueueModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueModel.swift; sourceTree = "<group>"; };
+		21F0A1662D9ABA45004FF5F9 /* SelectLanguageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLanguageView.swift; sourceTree = "<group>"; };
+		21F0A16C2D9ABAE8004FF5F9 /* RepeatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RepeatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21F0A1752D9ABAED004FF5F9 /* RepeatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatTests.swift; sourceTree = "<group>"; };
+		21F0A1792D9AC326004FF5F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21F0A1AF2D9AC38E004FF5F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		21F0A1B12D9AC431004FF5F9 /* Fredoka_Condensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fredoka_Condensed-Bold.ttf"; sourceTree = "<group>"; };
+		21F0A1B22D9AC431004FF5F9 /* Fredoka_Condensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fredoka_Condensed-Light.ttf"; sourceTree = "<group>"; };
+		21F0A1B32D9AC431004FF5F9 /* Fredoka_Condensed-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fredoka_Condensed-Medium.ttf"; sourceTree = "<group>"; };
+		21F0A1B42D9AC431004FF5F9 /* Fredoka_Condensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fredoka_Condensed-Regular.ttf"; sourceTree = "<group>"; };
+		21F0A1B52D9AC431004FF5F9 /* Fredoka_Condensed-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fredoka_Condensed-SemiBold.ttf"; sourceTree = "<group>"; };
+		21F0A1B62D9AC431004FF5F9 /* Fredoka_Expanded-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fredoka_Expanded-Bold.ttf"; sourceTree = "<group>"; };
+		21F0A1B72D9AC431004FF5F9 /* Fredoka_Expanded-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fredoka_Expanded-Light.ttf"; sourceTree = "<group>"; };
+		21F0A1B82D9AC431004FF5F9 /* Fredoka_Expanded-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fredoka_Expanded-Medium.ttf"; sourceTree = "<group>"; };
+		21F0A1B92D9AC431004FF5F9 /* Fredoka_Expanded-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fredoka_Expanded-Regular.ttf"; sourceTree = "<group>"; };
+		21F0A1BA2D9AC431004FF5F9 /* Fredoka_Expanded-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fredoka_Expanded-SemiBold.ttf"; sourceTree = "<group>"; };
+		21F0A1BB2D9AC431004FF5F9 /* Fredoka_SemiCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fredoka_SemiCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		21F0A1BC2D9AC431004FF5F9 /* Fredoka_SemiCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fredoka_SemiCondensed-Light.ttf"; sourceTree = "<group>"; };
+		21F0A1BE2D9AC431004FF5F9 /* Fredoka_SemiCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fredoka_SemiCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		21F0A1BF2D9AC431004FF5F9 /* Fredoka_SemiCondensed-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fredoka_SemiCondensed-SemiBold.ttf"; sourceTree = "<group>"; };
+		21F0A1C02D9AC431004FF5F9 /* Fredoka_SemiExpanded-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fredoka_SemiExpanded-Bold.ttf"; sourceTree = "<group>"; };
+		21F0A1C12D9AC431004FF5F9 /* Fredoka_SemiExpanded-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fredoka_SemiExpanded-Light.ttf"; sourceTree = "<group>"; };
+		21F0A1C22D9AC431004FF5F9 /* Fredoka_SemiExpanded-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fredoka_SemiExpanded-Medium.ttf"; sourceTree = "<group>"; };
+		21F0A1C32D9AC431004FF5F9 /* Fredoka_SemiExpanded-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fredoka_SemiExpanded-Regular.ttf"; sourceTree = "<group>"; };
+		21F0A1C42D9AC431004FF5F9 /* Fredoka_SemiExpanded-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fredoka_SemiExpanded-SemiBold.ttf"; sourceTree = "<group>"; };
+		21F0A1C52D9AC431004FF5F9 /* Fredoka-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fredoka-Bold.ttf"; sourceTree = "<group>"; };
+		21F0A1C62D9AC431004FF5F9 /* Fredoka-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fredoka-Light.ttf"; sourceTree = "<group>"; };
+		21F0A1C72D9AC431004FF5F9 /* Fredoka-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fredoka-Medium.ttf"; sourceTree = "<group>"; };
+		21F0A1C82D9AC431004FF5F9 /* Fredoka-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fredoka-Regular.ttf"; sourceTree = "<group>"; };
+		21F0A1C92D9AC431004FF5F9 /* Fredoka-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fredoka-SemiBold.ttf"; sourceTree = "<group>"; };
+		21F0A1E42D9AC483004FF5F9 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		21F0A1E62D9AC5EF004FF5F9 /* Steps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Steps.swift; sourceTree = "<group>"; };
+		21F0A1EA2D9AC7C9004FF5F9 /* MainButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButtonView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21F0A1342D9AB698004FF5F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2130EA802D9D7C860067F2C5 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F0A1692D9ABAE8004FF5F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2130EA6A2D9D5FAD0067F2C5 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				2130EA6B2D9D5FB60067F2C5 /* View */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		2130EA6B2D9D5FB60067F2C5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2130EA6C2D9D5FBF0067F2C5 /* SignUpView.swift */,
+				2130EA752D9D657C0067F2C5 /* PasswordView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2130EA712D9D63290067F2C5 /* MainTextField */ = {
+			isa = PBXGroup;
+			children = (
+				2130EA722D9D63420067F2C5 /* MainTextField.swift */,
+			);
+			path = MainTextField;
+			sourceTree = "<group>";
+		};
+		2130EA792D9D6D900067F2C5 /* PDFKit */ = {
+			isa = PBXGroup;
+			children = (
+				2130EA772D9D6B9E0067F2C5 /* PDFKitView.swift */,
+			);
+			path = PDFKit;
+			sourceTree = "<group>";
+		};
+		2130EA7A2D9D6FC90067F2C5 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2130EA7B2D9D6FD10067F2C5 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		2130EA7B2D9D6FD10067F2C5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2130EA7C2D9D6FDF0067F2C5 /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2130EA832D9D95B20067F2C5 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				2130EA842D9D95BF0067F2C5 /* WordPractice */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		2130EA842D9D95BF0067F2C5 /* WordPractice */ = {
+			isa = PBXGroup;
+			children = (
+				2130EA8A2D9DA9770067F2C5 /* View */,
+				2130EA8B2D9DA9800067F2C5 /* ViewModel */,
+			);
+			path = WordPractice;
+			sourceTree = "<group>";
+		};
+		2130EA8A2D9DA9770067F2C5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2130EA852D9D96740067F2C5 /* WordPracticeView.swift */,
+				2130EA872D9D99BA0067F2C5 /* Word.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2130EA8B2D9DA9800067F2C5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2130EA8C2D9DA9980067F2C5 /* WordPracticeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		21C4D4F22D9ADCDF00AD699A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				21C4D4F12D9ADCDF00AD699A /* SplashScreen.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		21C4D4F32D9ADCDF00AD699A /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				21C4D4F22D9ADCDF00AD699A /* View */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		21C4D5392D9C15E900AD699A /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				21C4D53D2D9C1A1300AD699A /* Network */,
+				2130EA832D9D95B20067F2C5 /* Games */,
+				2130EA7A2D9D6FC90067F2C5 /* Login */,
+				2130EA6A2D9D5FAD0067F2C5 /* SignUp */,
+				21F0A1562D9AB6DC004FF5F9 /* Onboarding */,
+				21F0A1592D9AB6E8004FF5F9 /* SelectLanguage */,
+				21C4D4F32D9ADCDF00AD699A /* SplashScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		21C4D53A2D9C15F500AD699A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				21C4D53B2D9C160E00AD699A /* Modifiers.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		21C4D53D2D9C1A1300AD699A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				21C4D53E2D9C4D1600AD699A /* NetworkView.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		21C4D5402D9D326F00AD699A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				21C4D5432D9D32B800AD699A /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		21C4D5492D9D43A900AD699A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				21C4D5482D9D43A900AD699A /* LanguagesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		21F0A12E2D9AB698004FF5F9 = {
+			isa = PBXGroup;
+			children = (
+				21F0A14D2D9AB69E004FF5F9 /* Repeat */,
+				21F0A1762D9ABAED004FF5F9 /* RepeatTests */,
+				21F0A1382D9AB698004FF5F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21F0A1382D9AB698004FF5F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21F0A1372D9AB698004FF5F9 /* Repeat.app */,
+				21F0A16C2D9ABAE8004FF5F9 /* RepeatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21F0A1492D9AB69E004FF5F9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				21F0A1482D9AB69E004FF5F9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		21F0A14D2D9AB69E004FF5F9 /* Repeat */ = {
+			isa = PBXGroup;
+			children = (
+				21F0A1AF2D9AC38E004FF5F9 /* Info.plist */,
+				21F0A14C2D9AB69E004FF5F9 /* RepeatApp.swift */,
+				21C4D5402D9D326F00AD699A /* Resources */,
+				21F0A1552D9AB6BA004FF5F9 /* Components */,
+				21F0A1522D9AB6B3004FF5F9 /* View */,
+				21F0A1532D9AB6B5004FF5F9 /* ViewModel */,
+				21F0A1542D9AB6B5004FF5F9 /* Model */,
+				21F0A17A2D9AC326004FF5F9 /* SupportingFiles */,
+				21F0A1492D9AB69E004FF5F9 /* Preview Content */,
+			);
+			path = Repeat;
+			sourceTree = "<group>";
+		};
+		21F0A1522D9AB6B3004FF5F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				21C4D53A2D9C15F500AD699A /* Components */,
+				21C4D5392D9C15E900AD699A /* Screens */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		21F0A1532D9AB6B5004FF5F9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2130EA6E2D9D5FC60067F2C5 /* AuthViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		21F0A1542D9AB6B5004FF5F9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				21F0A1642D9AB7A1004FF5F9 /* QueueModel.swift */,
+				21C4D5362D9C0D2E00AD699A /* NetworkModel.swift */,
+				2130EA812D9D7CB70067F2C5 /* APIManagerModel.swift */,
+				2130EA8E2D9DA9D90067F2C5 /* WordPair.swift */,
+				219FC0902D9F01B2003FC19E /* EmailValidate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		21F0A1552D9AB6BA004FF5F9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				21F0A1E82D9AC7AD004FF5F9 /* View */,
+				21F0A1E32D9AC477004FF5F9 /* Extensions */,
+				21F0A15F2D9AB75D004FF5F9 /* Helpers */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		21F0A1562D9AB6DC004FF5F9 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				21F0A1572D9AB6E4004FF5F9 /* View */,
+				21F0A15C2D9AB6F9004FF5F9 /* ViewModel */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		21F0A1572D9AB6E4004FF5F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				21F0A14B2D9AB69E004FF5F9 /* OnboardingView.swift */,
+				21F0A1E62D9AC5EF004FF5F9 /* Steps.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		21F0A1582D9AB6E8004FF5F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				21F0A1662D9ABA45004FF5F9 /* SelectLanguageView.swift */,
+				21C4D54B2D9D46C100AD699A /* LanguageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		21F0A1592D9AB6E8004FF5F9 /* SelectLanguage */ = {
+			isa = PBXGroup;
+			children = (
+				21F0A1582D9AB6E8004FF5F9 /* View */,
+				21C4D5492D9D43A900AD699A /* ViewModel */,
+			);
+			path = SelectLanguage;
+			sourceTree = "<group>";
+		};
+		21F0A15C2D9AB6F9004FF5F9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				21F0A15D2D9AB709004FF5F9 /* OnboardingViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		21F0A15F2D9AB75D004FF5F9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				21F0A1602D9AB769004FF5F9 /* Constants.swift */,
+				21F0A1622D9AB76B004FF5F9 /* UserKey.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		21F0A1762D9ABAED004FF5F9 /* RepeatTests */ = {
+			isa = PBXGroup;
+			children = (
+				21F0A1752D9ABAED004FF5F9 /* RepeatTests.swift */,
+			);
+			path = RepeatTests;
+			sourceTree = "<group>";
+		};
+		21F0A17A2D9AC326004FF5F9 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				21F0A1B02D9AC41D004FF5F9 /* Fonts */,
+				21F0A1792D9AC326004FF5F9 /* Assets.xcassets */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		21F0A1B02D9AC41D004FF5F9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				21F0A1B12D9AC431004FF5F9 /* Fredoka_Condensed-Bold.ttf */,
+				21F0A1B22D9AC431004FF5F9 /* Fredoka_Condensed-Light.ttf */,
+				21F0A1B32D9AC431004FF5F9 /* Fredoka_Condensed-Medium.ttf */,
+				21F0A1B42D9AC431004FF5F9 /* Fredoka_Condensed-Regular.ttf */,
+				21F0A1B52D9AC431004FF5F9 /* Fredoka_Condensed-SemiBold.ttf */,
+				21F0A1B62D9AC431004FF5F9 /* Fredoka_Expanded-Bold.ttf */,
+				21F0A1B72D9AC431004FF5F9 /* Fredoka_Expanded-Light.ttf */,
+				21F0A1B82D9AC431004FF5F9 /* Fredoka_Expanded-Medium.ttf */,
+				21F0A1B92D9AC431004FF5F9 /* Fredoka_Expanded-Regular.ttf */,
+				21F0A1BA2D9AC431004FF5F9 /* Fredoka_Expanded-SemiBold.ttf */,
+				21F0A1BB2D9AC431004FF5F9 /* Fredoka_SemiCondensed-Bold.ttf */,
+				21F0A1BC2D9AC431004FF5F9 /* Fredoka_SemiCondensed-Light.ttf */,
+				21C4D4EB2D9AD96000AD699A /* Fredoka_SemiCondensed-Medium.ttf */,
+				21F0A1BE2D9AC431004FF5F9 /* Fredoka_SemiCondensed-Regular.ttf */,
+				21F0A1BF2D9AC431004FF5F9 /* Fredoka_SemiCondensed-SemiBold.ttf */,
+				21F0A1C02D9AC431004FF5F9 /* Fredoka_SemiExpanded-Bold.ttf */,
+				21F0A1C12D9AC431004FF5F9 /* Fredoka_SemiExpanded-Light.ttf */,
+				21F0A1C22D9AC431004FF5F9 /* Fredoka_SemiExpanded-Medium.ttf */,
+				21F0A1C32D9AC431004FF5F9 /* Fredoka_SemiExpanded-Regular.ttf */,
+				21F0A1C42D9AC431004FF5F9 /* Fredoka_SemiExpanded-SemiBold.ttf */,
+				21F0A1C52D9AC431004FF5F9 /* Fredoka-Bold.ttf */,
+				21F0A1C62D9AC431004FF5F9 /* Fredoka-Light.ttf */,
+				21F0A1C72D9AC431004FF5F9 /* Fredoka-Medium.ttf */,
+				21F0A1C82D9AC431004FF5F9 /* Fredoka-Regular.ttf */,
+				21F0A1C92D9AC431004FF5F9 /* Fredoka-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		21F0A1E32D9AC477004FF5F9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				21F0A1E42D9AC483004FF5F9 /* View.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		21F0A1E82D9AC7AD004FF5F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2130EA792D9D6D900067F2C5 /* PDFKit */,
+				2130EA712D9D63290067F2C5 /* MainTextField */,
+				21F0A1E92D9AC7B2004FF5F9 /* MainButton */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		21F0A1E92D9AC7B2004FF5F9 /* MainButton */ = {
+			isa = PBXGroup;
+			children = (
+				21F0A1EA2D9AC7C9004FF5F9 /* MainButtonView.swift */,
+			);
+			path = MainButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21F0A1362D9AB698004FF5F9 /* Repeat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21F0A1452D9AB69A004FF5F9 /* Build configuration list for PBXNativeTarget "Repeat" */;
+			buildPhases = (
+				21F0A1332D9AB698004FF5F9 /* Sources */,
+				21F0A1342D9AB698004FF5F9 /* Frameworks */,
+				21F0A1352D9AB698004FF5F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Repeat;
+			packageProductDependencies = (
+				2130EA7F2D9D7C860067F2C5 /* Alamofire */,
+			);
+			productName = Repeat;
+			productReference = 21F0A1372D9AB698004FF5F9 /* Repeat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21F0A16B2D9ABAE8004FF5F9 /* RepeatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21F0A1722D9ABAE9004FF5F9 /* Build configuration list for PBXNativeTarget "RepeatTests" */;
+			buildPhases = (
+				21F0A1682D9ABAE8004FF5F9 /* Sources */,
+				21F0A1692D9ABAE8004FF5F9 /* Frameworks */,
+				21F0A16A2D9ABAE8004FF5F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21F0A1712D9ABAE9004FF5F9 /* PBXTargetDependency */,
+			);
+			name = RepeatTests;
+			packageProductDependencies = (
+			);
+			productName = RepeatTests;
+			productReference = 21F0A16C2D9ABAE8004FF5F9 /* RepeatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21F0A12F2D9AB698004FF5F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					21F0A1362D9AB698004FF5F9 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					21F0A16B2D9ABAE8004FF5F9 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 21F0A1362D9AB698004FF5F9;
+					};
+				};
+			};
+			buildConfigurationList = 21F0A1322D9AB698004FF5F9 /* Build configuration list for PBXProject "Repeat" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = 21F0A12E2D9AB698004FF5F9;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2130EA7E2D9D7C860067F2C5 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 21F0A1382D9AB698004FF5F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21F0A1362D9AB698004FF5F9 /* Repeat */,
+				21F0A16B2D9ABAE8004FF5F9 /* RepeatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21F0A1352D9AB698004FF5F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F0A1CA2D9AC431004FF5F9 /* Fredoka_SemiExpanded-Light.ttf in Resources */,
+				21F0A1CB2D9AC431004FF5F9 /* Fredoka_SemiExpanded-Medium.ttf in Resources */,
+				21F0A1CC2D9AC431004FF5F9 /* Fredoka_Expanded-Bold.ttf in Resources */,
+				21F0A1CD2D9AC431004FF5F9 /* Fredoka_SemiCondensed-Light.ttf in Resources */,
+				21F0A1CE2D9AC431004FF5F9 /* Fredoka_SemiCondensed-Regular.ttf in Resources */,
+				21F0A1CF2D9AC431004FF5F9 /* Fredoka_Expanded-Medium.ttf in Resources */,
+				21F0A1D02D9AC431004FF5F9 /* Fredoka_SemiExpanded-Bold.ttf in Resources */,
+				21F0A1D12D9AC431004FF5F9 /* Fredoka_SemiExpanded-Regular.ttf in Resources */,
+				21F0A1D22D9AC431004FF5F9 /* Fredoka_SemiCondensed-Bold.ttf in Resources */,
+				21F0A1D32D9AC431004FF5F9 /* Fredoka-SemiBold.ttf in Resources */,
+				21F0A1D42D9AC431004FF5F9 /* Fredoka_Condensed-SemiBold.ttf in Resources */,
+				21F0A1D52D9AC431004FF5F9 /* Fredoka_Expanded-Regular.ttf in Resources */,
+				21F0A1D62D9AC431004FF5F9 /* Fredoka-Light.ttf in Resources */,
+				21F0A1D72D9AC431004FF5F9 /* Fredoka_Condensed-Bold.ttf in Resources */,
+				21F0A1D82D9AC431004FF5F9 /* Fredoka_SemiCondensed-SemiBold.ttf in Resources */,
+				21F0A1D92D9AC431004FF5F9 /* Fredoka_Condensed-Medium.ttf in Resources */,
+				21F0A1DA2D9AC431004FF5F9 /* Fredoka_Condensed-Regular.ttf in Resources */,
+				21C4D5452D9D32B800AD699A /* Localizable.strings in Resources */,
+				21F0A1DB2D9AC431004FF5F9 /* Fredoka-Bold.ttf in Resources */,
+				21C4D4EC2D9AD96000AD699A /* Fredoka_SemiCondensed-Medium.ttf in Resources */,
+				21F0A1DD2D9AC431004FF5F9 /* Fredoka_Expanded-SemiBold.ttf in Resources */,
+				21F0A1DE2D9AC431004FF5F9 /* Fredoka-Regular.ttf in Resources */,
+				21F0A1DF2D9AC431004FF5F9 /* Fredoka_Expanded-Light.ttf in Resources */,
+				21F0A1E02D9AC431004FF5F9 /* Fredoka_Condensed-Light.ttf in Resources */,
+				21F0A1E12D9AC431004FF5F9 /* Fredoka_SemiExpanded-SemiBold.ttf in Resources */,
+				21F0A1E22D9AC431004FF5F9 /* Fredoka-Medium.ttf in Resources */,
+				21F0A17B2D9AC326004FF5F9 /* Assets.xcassets in Resources */,
+				21F0A14E2D9AB69E004FF5F9 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F0A16A2D9ABAE8004FF5F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21F0A1332D9AB698004FF5F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21C4D5372D9C0D2E00AD699A /* NetworkModel.swift in Sources */,
+				2130EA822D9D7CB70067F2C5 /* APIManagerModel.swift in Sources */,
+				21F0A1E72D9AC5EF004FF5F9 /* Steps.swift in Sources */,
+				21C4D4F42D9ADCDF00AD699A /* SplashScreen.swift in Sources */,
+				21F0A1E52D9AC483004FF5F9 /* View.swift in Sources */,
+				21C4D54A2D9D43A900AD699A /* LanguagesViewModel.swift in Sources */,
+				2130EA732D9D63420067F2C5 /* MainTextField.swift in Sources */,
+				21F0A1502D9AB69E004FF5F9 /* OnboardingView.swift in Sources */,
+				21F0A15E2D9AB709004FF5F9 /* OnboardingViewModel.swift in Sources */,
+				2130EA7D2D9D6FDF0067F2C5 /* LoginView.swift in Sources */,
+				21F0A1632D9AB76B004FF5F9 /* UserKey.swift in Sources */,
+				2130EA782D9D6B9E0067F2C5 /* PDFKitView.swift in Sources */,
+				219FC0912D9F01B2003FC19E /* EmailValidate.swift in Sources */,
+				21F0A1512D9AB69E004FF5F9 /* RepeatApp.swift in Sources */,
+				21F0A1672D9ABA45004FF5F9 /* SelectLanguageView.swift in Sources */,
+				21C4D53F2D9C4D1600AD699A /* NetworkView.swift in Sources */,
+				21F0A1EB2D9AC7C9004FF5F9 /* MainButtonView.swift in Sources */,
+				2130EA6D2D9D5FBF0067F2C5 /* SignUpView.swift in Sources */,
+				2130EA882D9D99BA0067F2C5 /* Word.swift in Sources */,
+				21C4D54C2D9D46C100AD699A /* LanguageView.swift in Sources */,
+				2130EA8F2D9DA9D90067F2C5 /* WordPair.swift in Sources */,
+				2130EA762D9D657C0067F2C5 /* PasswordView.swift in Sources */,
+				2130EA862D9D96740067F2C5 /* WordPracticeView.swift in Sources */,
+				2130EA8D2D9DA9980067F2C5 /* WordPracticeViewModel.swift in Sources */,
+				21F0A1612D9AB769004FF5F9 /* Constants.swift in Sources */,
+				21F0A1652D9AB7A1004FF5F9 /* QueueModel.swift in Sources */,
+				2130EA702D9D5FC60067F2C5 /* AuthViewModel.swift in Sources */,
+				21C4D53C2D9C160E00AD699A /* Modifiers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F0A1682D9ABAE8004FF5F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F0A1772D9ABAED004FF5F9 /* RepeatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21F0A1712D9ABAE9004FF5F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21F0A1362D9AB698004FF5F9 /* Repeat */;
+			targetProxy = 21F0A1702D9ABAE9004FF5F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21C4D4EB2D9AD96000AD699A /* Fredoka_SemiCondensed-Medium.ttf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21C4D4EA2D9AD96000AD699A /* en */,
+				21C4D5472D9D334300AD699A /* ru */,
+			);
+			name = "Fredoka_SemiCondensed-Medium.ttf";
+			sourceTree = "<group>";
+		};
+		21C4D5432D9D32B800AD699A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21C4D5442D9D32B800AD699A /* en */,
+				21C4D5462D9D334300AD699A /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21F0A1432D9AB69A004FF5F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		21F0A1442D9AB69A004FF5F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21F0A1462D9AB69A004FF5F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Repeat/Preview Content\"";
+				DEVELOPMENT_TEAM = 74A6F279YB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Repeat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = verdx.Repeat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21F0A1472D9AB69A004FF5F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Repeat/Preview Content\"";
+				DEVELOPMENT_TEAM = 74A6F279YB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Repeat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = verdx.Repeat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		21F0A1732D9ABAE9004FF5F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74A6F279YB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = verdx.RepeatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Repeat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Repeat";
+			};
+			name = Debug;
+		};
+		21F0A1742D9ABAE9004FF5F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74A6F279YB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = verdx.RepeatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Repeat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Repeat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21F0A1322D9AB698004FF5F9 /* Build configuration list for PBXProject "Repeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F0A1432D9AB69A004FF5F9 /* Debug */,
+				21F0A1442D9AB69A004FF5F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21F0A1452D9AB69A004FF5F9 /* Build configuration list for PBXNativeTarget "Repeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F0A1462D9AB69A004FF5F9 /* Debug */,
+				21F0A1472D9AB69A004FF5F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21F0A1722D9ABAE9004FF5F9 /* Build configuration list for PBXNativeTarget "RepeatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F0A1732D9ABAE9004FF5F9 /* Debug */,
+				21F0A1742D9ABAE9004FF5F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2130EA7E2D9D7C860067F2C5 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2130EA7F2D9D7C860067F2C5 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2130EA7E2D9D7C860067F2C5 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 21F0A12F2D9AB698004FF5F9 /* Project object */;
+}
