@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2158C3C42DA2F35000AB252A /* AnimalsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2158C3C32DA2F35000AB252A /* AnimalsViewModel.swift */; };
+		2158C3C72DA2F73900AB252A /* GameWordPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2158C3C62DA2F73900AB252A /* GameWordPair.swift */; };
+		2158C3C92DA2F78B00AB252A /* GameWordPairViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2158C3C82DA2F78B00AB252A /* GameWordPairViewModel.swift */; };
+		2158C3CD2DA306E900AB252A /* SpeechView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2158C3CC2DA306E900AB252A /* SpeechView.swift */; };
 		217618A42DA14F890053DA6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2176189E2DA14F890053DA6C /* Preview Assets.xcassets */; };
 		217618A52DA14F890053DA6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 217618A02DA14F890053DA6C /* Assets.xcassets */; };
 		217618A62DA14F890053DA6C /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217618A12DA14F890053DA6C /* OnboardingView.swift */; };
@@ -50,6 +54,8 @@
 		217750502DA18B40006C421E /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2177504F2DA18B40006C421E /* Login.swift */; };
 		217750522DA18D9F006C421E /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217750512DA18D9F006C421E /* Language.swift */; };
 		217750552DA18F07006C421E /* SelectLanguageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217750542DA18F07006C421E /* SelectLanguageViewModel.swift */; };
+		219303B92DA2D4F7007839EE /* Games.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219303B82DA2D4F7007839EE /* Games.swift */; };
+		219303BC2DA2D546007839EE /* AnimalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219303BB2DA2D546007839EE /* AnimalsView.swift */; };
 		21BDB1972DA1A0C500701057 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BDB1952DA1A0C500701057 /* CustomTextField.swift */; };
 		21BDB1992DA1A3D500701057 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BDB1982DA1A3D500701057 /* AuthViewModel.swift */; };
 		21BDB19B2DA1A50900701057 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BDB19A2DA1A50900701057 /* SignupView.swift */; };
@@ -70,6 +76,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2158C3C32DA2F35000AB252A /* AnimalsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsViewModel.swift; sourceTree = "<group>"; };
+		2158C3C62DA2F73900AB252A /* GameWordPair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameWordPair.swift; sourceTree = "<group>"; };
+		2158C3C82DA2F78B00AB252A /* GameWordPairViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameWordPairViewModel.swift; sourceTree = "<group>"; };
+		2158C3CC2DA306E900AB252A /* SpeechView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechView.swift; sourceTree = "<group>"; };
 		217618712DA14EF60053DA6C /* RepeatAgain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepeatAgain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		217618812DA14EF80053DA6C /* RepeatAgainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RepeatAgainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2176189E2DA14F890053DA6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -116,6 +126,8 @@
 		2177504F2DA18B40006C421E /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		217750512DA18D9F006C421E /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
 		217750542DA18F07006C421E /* SelectLanguageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLanguageViewModel.swift; sourceTree = "<group>"; };
+		219303B82DA2D4F7007839EE /* Games.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Games.swift; sourceTree = "<group>"; };
+		219303BB2DA2D546007839EE /* AnimalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsView.swift; sourceTree = "<group>"; };
 		21BDB1952DA1A0C500701057 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		21BDB1982DA1A3D500701057 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		21BDB19A2DA1A50900701057 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
@@ -143,6 +155,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2158C3C52DA2F70D00AB252A /* WordPair */ = {
+			isa = PBXGroup;
+			children = (
+				2158C3C62DA2F73900AB252A /* GameWordPair.swift */,
+				2158C3C82DA2F78B00AB252A /* GameWordPairViewModel.swift */,
+			);
+			path = WordPair;
+			sourceTree = "<group>";
+		};
 		217618682DA14EF60053DA6C = {
 			isa = PBXGroup;
 			children = (
@@ -232,6 +253,7 @@
 		217618AF2DA160950053DA6C /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				219303B72DA2D4E5007839EE /* Games */,
 				217618B42DA160FC0053DA6C /* Onboarding */,
 				217618B72DA161080053DA6C /* SplashScreen */,
 				217618B92DA161080053DA6C /* SelectLanguage */,
@@ -433,6 +455,26 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		219303B72DA2D4E5007839EE /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				219303B82DA2D4F7007839EE /* Games.swift */,
+				2158C3C52DA2F70D00AB252A /* WordPair */,
+				219303BA2DA2D537007839EE /* AnimalView */,
+				2158C3CC2DA306E900AB252A /* SpeechView.swift */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		219303BA2DA2D537007839EE /* AnimalView */ = {
+			isa = PBXGroup;
+			children = (
+				219303BB2DA2D546007839EE /* AnimalsView.swift */,
+				2158C3C32DA2F35000AB252A /* AnimalsViewModel.swift */,
+			);
+			path = AnimalView;
+			sourceTree = "<group>";
+		};
 		21BDB1962DA1A0C500701057 /* CustomTextField */ = {
 			isa = PBXGroup;
 			children = (
@@ -575,21 +617,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				219303BC2DA2D546007839EE /* AnimalsView.swift in Sources */,
 				21BDB19B2DA1A50900701057 /* SignupView.swift in Sources */,
 				2177504C2DA1876B006C421E /* StepView.swift in Sources */,
 				217750072DA169DF006C421E /* UserKey.swift in Sources */,
 				217750502DA18B40006C421E /* Login.swift in Sources */,
+				2158C3C92DA2F78B00AB252A /* GameWordPairViewModel.swift in Sources */,
 				217750522DA18D9F006C421E /* Language.swift in Sources */,
 				217618A62DA14F890053DA6C /* OnboardingView.swift in Sources */,
 				21BDB1A02DA1A9F500701057 /* EmailModel.swift in Sources */,
+				2158C3C42DA2F35000AB252A /* AnimalsViewModel.swift in Sources */,
 				217750482DA16E4D006C421E /* MainButtonView.swift in Sources */,
 				2177500A2DA16CE8006C421E /* View.swift in Sources */,
 				21BDB1992DA1A3D500701057 /* AuthViewModel.swift in Sources */,
 				217618A72DA14F890053DA6C /* RepeatAgainApp.swift in Sources */,
 				217618B32DA160C50053DA6C /* NetworkModifier.swift in Sources */,
+				2158C3C72DA2F73900AB252A /* GameWordPair.swift in Sources */,
+				2158C3CD2DA306E900AB252A /* SpeechView.swift in Sources */,
 				21BDB1A42DA1AFB900701057 /* PDFKitView.swift in Sources */,
 				2177504E2DA18AA9006C421E /* SelectLanguage.swift in Sources */,
 				217618C02DA1614F0053DA6C /* OnboardingViewModel.swift in Sources */,
+				219303B92DA2D4F7007839EE /* Games.swift in Sources */,
 				21BDB1972DA1A0C500701057 /* CustomTextField.swift in Sources */,
 				21BDB1A22DA1ADDF00701057 /* PasswordView.swift in Sources */,
 				217618C22DA161610053DA6C /* QueueModel.swift in Sources */,
@@ -749,6 +797,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RepeatAgain/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = ll;
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = LL;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -780,6 +830,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RepeatAgain/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = ll;
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = LL;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

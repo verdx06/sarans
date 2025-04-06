@@ -61,5 +61,34 @@ extension View {
             .navigationBarBackButtonHidden()
     }
     
+    func headerForGame(text: String, color: Color? = .hex410FA3, action: @escaping ()->Void) -> some View {
+        VStack {
+            
+            ZStack {
+                Rectangle()
+                    .frame(maxWidth: .infinity)
+                    .frame(height: 92)
+                    .foregroundStyle(Color.hex410FA3)
+                HStack {
+                    Button {
+                        action()
+                    } label: {
+                        Image("backGame")
+                    }
+                    Text(text)
+                        .fredokaFont(size: 22, font: .medium)
+                        .foregroundStyle(Color.white)
+                        .padding(.horizontal)
+                    Spacer()
+                }.padding(.horizontal, 20)
+                    .padding(.top, 30)
+            }
+            
+            Spacer()
+            self
+            Spacer()
+        }.edgesIgnoringSafeArea(.all)
+    }
+    
     
 }

@@ -18,7 +18,7 @@ struct RepeatAgainApp: App {
     
     var body: some Scene {
         WindowGroup {
-            SplashScreenView(lastwatched: lastwatched)
+            SpeechView()
         }
     }
 }
