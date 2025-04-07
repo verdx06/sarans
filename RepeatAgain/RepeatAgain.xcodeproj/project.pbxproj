@@ -11,6 +11,7 @@
 		2158C3C72DA2F73900AB252A /* GameWordPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2158C3C62DA2F73900AB252A /* GameWordPair.swift */; };
 		2158C3C92DA2F78B00AB252A /* GameWordPairViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2158C3C82DA2F78B00AB252A /* GameWordPairViewModel.swift */; };
 		2158C3CD2DA306E900AB252A /* SpeechView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2158C3CC2DA306E900AB252A /* SpeechView.swift */; };
+		2158C3D12DA3867500AB252A /* ComputerGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2158C3D02DA3867500AB252A /* ComputerGame.swift */; };
 		217618A42DA14F890053DA6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2176189E2DA14F890053DA6C /* Preview Assets.xcassets */; };
 		217618A52DA14F890053DA6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 217618A02DA14F890053DA6C /* Assets.xcassets */; };
 		217618A62DA14F890053DA6C /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217618A12DA14F890053DA6C /* OnboardingView.swift */; };
@@ -80,6 +81,7 @@
 		2158C3C62DA2F73900AB252A /* GameWordPair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameWordPair.swift; sourceTree = "<group>"; };
 		2158C3C82DA2F78B00AB252A /* GameWordPairViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameWordPairViewModel.swift; sourceTree = "<group>"; };
 		2158C3CC2DA306E900AB252A /* SpeechView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechView.swift; sourceTree = "<group>"; };
+		2158C3D02DA3867500AB252A /* ComputerGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputerGame.swift; sourceTree = "<group>"; };
 		217618712DA14EF60053DA6C /* RepeatAgain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepeatAgain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		217618812DA14EF80053DA6C /* RepeatAgainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RepeatAgainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2176189E2DA14F890053DA6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -162,6 +164,22 @@
 				2158C3C82DA2F78B00AB252A /* GameWordPairViewModel.swift */,
 			);
 			path = WordPair;
+			sourceTree = "<group>";
+		};
+		2158C3CE2DA3863400AB252A /* Speech */ = {
+			isa = PBXGroup;
+			children = (
+				2158C3CC2DA306E900AB252A /* SpeechView.swift */,
+			);
+			path = Speech;
+			sourceTree = "<group>";
+		};
+		2158C3CF2DA3864C00AB252A /* ComputerGame */ = {
+			isa = PBXGroup;
+			children = (
+				2158C3D02DA3867500AB252A /* ComputerGame.swift */,
+			);
+			path = ComputerGame;
 			sourceTree = "<group>";
 		};
 		217618682DA14EF60053DA6C = {
@@ -459,9 +477,10 @@
 			isa = PBXGroup;
 			children = (
 				219303B82DA2D4F7007839EE /* Games.swift */,
+				2158C3CF2DA3864C00AB252A /* ComputerGame */,
 				2158C3C52DA2F70D00AB252A /* WordPair */,
 				219303BA2DA2D537007839EE /* AnimalView */,
-				2158C3CC2DA306E900AB252A /* SpeechView.swift */,
+				2158C3CE2DA3863400AB252A /* Speech */,
 			);
 			path = Games;
 			sourceTree = "<group>";
@@ -635,6 +654,7 @@
 				2158C3C72DA2F73900AB252A /* GameWordPair.swift in Sources */,
 				2158C3CD2DA306E900AB252A /* SpeechView.swift in Sources */,
 				21BDB1A42DA1AFB900701057 /* PDFKitView.swift in Sources */,
+				2158C3D12DA3867500AB252A /* ComputerGame.swift in Sources */,
 				2177504E2DA18AA9006C421E /* SelectLanguage.swift in Sources */,
 				217618C02DA1614F0053DA6C /* OnboardingViewModel.swift in Sources */,
 				219303B92DA2D4F7007839EE /* Games.swift in Sources */,

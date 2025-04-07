@@ -18,7 +18,7 @@ struct GameWordPair: View {
     
     @State var isSelect = ""
     @State var isSelected = ""
-    @State var vm = GameWordPairViewModel()
+    @StateObject var vm = GameWordPairViewModel()
     
     var body: some View {
         VStack {
